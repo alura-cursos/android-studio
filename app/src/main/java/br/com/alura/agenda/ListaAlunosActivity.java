@@ -16,7 +16,7 @@ public class ListaAlunosActivity extends AppCompatActivity {
 
         ListView listaAlunos = (ListView) findViewById(R.id.lista_alunos);
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, alunos);
-        listaAlunos.setAdapter(adapter);
+        listaAlunos.setAdapter(adapter );
     }
 
 }
